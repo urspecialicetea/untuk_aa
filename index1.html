@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Cinta</title>
+    
+    <!-- Menambahkan link ke Google Fonts untuk font mesin tik -->
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Courier', monospace; /* Menggunakan font mesin tik */
+            background-color: #fce4ec;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image: url('https://www.transparenttextures.com/patterns/diamond-squares.png');
+            background-size: cover;
+        }
+        .content {
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            max-width: 600px;
+            width: 100%;
+            position: relative;
+            overflow: hidden;
+            box-sizing: border-box;
+        }
+        h1 {
+            font-family: 'Press Start 2P', Times New Roman; /* Menggunakan font mesin tik untuk judul */
+            color: #e91e63;
+            font-size: 16px; /* Ukuran font judul diperkecil */
+            margin-bottom: 15px;
+            text-transform: uppercase;
+        }
+        p {
+            font-family: 'Courier', monospace; /* Menggunakan font mesin tik untuk paragraf */
+            font-size: 16px; /* Ukuran font paragraf diperkecil */
+            line-height: 1.8;
+            color: #333;
+            font-weight: lighter;
+            margin-bottom: 15px;
+        }
+        .heart {
+            position: absolute;
+            top: -20px;
+            right: -20px;
+            font-size: 30px; /* Ukuran hati diperkecil */
+            color: #e91e63;
+            animation: float 4s ease-in-out infinite;
+        }
+        .rose {
+            position: absolute;
+            bottom: -30px;
+            left: 10px;
+            width: 40px; /* Ukuran bunga mawar diperkecil */
+            height: 40px;
+            background-image: url('https://www.kindpng.com/picc/m/195-1956594_rose-flower-png-image-transparent-background-flowers-png.png');
+            background-size: contain;
+            animation: bounce 3s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-15px); }
+        }
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+
+        /* Responsivitas */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 20px; /* Ukuran font judul lebih kecil pada perangkat kecil */
+            }
+            p {
+                font-size: 14px; /* Ukuran font paragraf lebih kecil pada perangkat kecil */
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="content">
+        <div class="heart">❤️</div>
+        <div class="rose"></div>
+        <h1>Dari Aku, Untuk Kekasihku</h1>
+        <p>
+            Sayang,  
+            Cece mungkin tidak selalu bisa mengungkapkan perasaan dengan sempurna, tapi izinkan Cece mengatakannya dengan hati yang penuh.  
+            Setiap hari Cece bersyukur karena Tuhan mengizinkan kita bertemu dan saling merasakan cinta ini.  
+            Cinta kita bukan hanya tentang kebahagiaan dalam momen indah, tapi juga bagaimana kita belajar dari setiap tantangan yang kita hadapi bersama.  
+            Setiap kali Cece melihat Aa, Cece tau bahwa Aa adalah tempat yang paling aman untuk hati Cece. Cece merasa begitu tenang di dekat Aa, semua kekhawatiran menghilang begitu saja. Aa adalah penguat, pelindung, dan teman hidup Cece yang terbaik.  
+            Cece ingin terus berjalan di samping Aa, melalui setiap lika-liku hidup, karena Cece tau tidak ada yang lebih indah selain berbagi hidup ini dengan Aa.  
+            Terima kasih sudah menjadi Aa yang sekarang, dan mencintai Cece dengan cara yang hanya Aa bisa.  
+            Cece mencintai Aa lebih dari kata-kata yang bisa ungkapkan, dan Cece akan selalu ada di sisi Aa, mencintai Aa dengan sepenuh hati❤️
+        </p>
+    </div>
+
+</body>
+</html>
